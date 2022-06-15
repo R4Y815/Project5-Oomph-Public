@@ -1,0 +1,78 @@
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* exercise previews / list */
+.exercise-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.exercise-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.exercise-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.exercise-preview a {
+  text-decoration: none;
+}
+
+.exercise-preview p {
+  font-size: 13px;
+  font-weight: lighter;
+  color: #333;
+  margin-right: 10px;
+}
+
+/* exercise details page */
+.exercise-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.exercise-details div {
+  margin: 20px 0;
+}
+.exercise-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* exercise filter */
+.exercise-filter {
+  margin: 30px auto;
+}
+.exercise-filter nav {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+.exercise-filter p {
+  font-size: 0.9em;
+  margin-right: 10px;
+}
+.exercise-filter button {
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  border-right: 1px solid #e4e4e4;
+  font-size: 0.9em;
+}
+.exercise-filter button:last-child {
+  border: 0;
+}
+.exercise-filter button.active {
+  color: #f1356d;
+}
